@@ -60,4 +60,9 @@ public class Syslog {
     public void setCreateDate(String createDate) {
         this.createDate = createDate;
     }
+
+    @Override
+    public String toString() {
+        return this.className + ":" + this.methodName + ":" + this.params;
+    }
 }

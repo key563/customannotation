@@ -1,7 +1,9 @@
 package com.key.customannotation;
 
+import com.key.customannotation.p1.BizService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
@@ -17,5 +19,6 @@ public class CustomannotationApplicationTests {
 
     public void threadTest1(){
     }
+
 
 }
